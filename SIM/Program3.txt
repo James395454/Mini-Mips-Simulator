@@ -1,0 +1,19 @@
+ADD 0,2,x
+ADD 0,3,y
+ADD x,y,out
+ADD 0,8,a1
+ADD 0,10,a2
+JMP a1
+ADD 0,0,d
+MUL 4,4,out
+JMP0 0,a2
+NEG out,out
+   
+WRITE x
+WRITE y
+
+WRITE a1
+WRITE a2
+WRITE out
+HALT
+    

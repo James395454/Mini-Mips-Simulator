@@ -1,0 +1,40 @@
+﻿Build started 1/15/2017 11:22:32 PM.
+     1>Project "C:\Users\jawes\Documents\Visual Studio 2015\Projects\SIM\SIM\SIM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt ADD.cpp ASS.cpp DataMemory.cpp Executor.cpp InstructionMemory.cpp JMP.cpp JMP0.cpp LE.cpp MUL.cpp NEG.cpp Processor.cpp Main.cpp READ.cpp WRITE.cpp
+         WRITE.cpp
+         READ.cpp
+         Main.cpp
+         Processor.cpp
+         NEG.cpp
+         MUL.cpp
+         LE.cpp
+         JMP0.cpp
+         JMP.cpp
+         InstructionMemory.cpp
+         Executor.cpp
+         DataMemory.cpp
+         ASS.cpp
+         ADD.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jawes\Documents\Visual Studio 2015\Projects\SIM\SIM\x64\Debug\OP ASSIGNMENT 2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\jawes\Documents\Visual Studio 2015\Projects\SIM\SIM\x64\Debug\OP ASSIGNMENT 2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jawes\Documents\Visual Studio 2015\Projects\SIM\SIM\x64\Debug\OP ASSIGNMENT 2.lib" /MACHINE:X64 x64\Debug\ADD.obj
+         x64\Debug\ASS.obj
+         x64\Debug\DataMemory.obj
+         x64\Debug\Executor.obj
+         x64\Debug\InstructionMemory.obj
+         x64\Debug\JMP.obj
+         x64\Debug\JMP0.obj
+         x64\Debug\LE.obj
+         x64\Debug\MUL.obj
+         x64\Debug\NEG.obj
+         x64\Debug\Processor.obj
+         x64\Debug\Main.obj
+         x64\Debug\READ.obj
+         x64\Debug\WRITE.obj
+         SIM.vcxproj -> C:\Users\jawes\Documents\Visual Studio 2015\Projects\SIM\SIM\x64\Debug\OP ASSIGNMENT 2.exe
+     1>Done Building Project "C:\Users\jawes\Documents\Visual Studio 2015\Projects\SIM\SIM\SIM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.38

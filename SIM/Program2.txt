@@ -1,0 +1,7 @@
+ADD 0,2,out1
+ADD 0,5,res
+MUL out1,4,res
+NEG res,out1
+WRITE out1
+WRITE res
+HALT

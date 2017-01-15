@@ -1,0 +1,18 @@
+ADD 0,0,b
+ADD 1,b,a1
+ADD a1,2,a1
+ADD a1,5,a3
+MUL a3,5,a4
+LE   1 , 2 , a5
+ADD  0,9 ,c
+JMP c
+ADD 0,0,b
+ADD 0,12,j0
+JMP0 0,j0
+NEG a5,a5
+ASS a5,a6
+WRITE a1
+WRITE a3
+WRITE a4
+WRITE a5
+WRITE a6

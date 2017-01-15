@@ -1,0 +1,18 @@
+ADD -1,0,ad
+ADD 0,10,out
+ADD 0,3,j
+ADD 4,out,out2
+ADD out,out2,out3
+ADD out,out3,out
+MUL   -out2   ,  - out2   ,    out4
+LE out2,out,out5
+ADD 1,0,out6
+NEG out6,out6
+ASS out6,out7
+ADD ad,1,ad
+ADD 0,15,out8
+JMP out8
+MUL out,2,out
+JMP0 ad,j
+WRITE out4
+HALT
